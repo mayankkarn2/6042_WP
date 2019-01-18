@@ -1,0 +1,76 @@
+{
+	"questions" : [
+		{
+			"question_text":"BlockingEnqueue is a not subinterface of Queue",
+			"options":[
+				{
+					"option_text": "True",
+					"is_correct": true,
+					"option_feedback":"correct answer"
+				},
+				{
+					"option_text":"False",
+					"is_correct": false,
+					"option_feedback":"wrong answer"
+				}
+			],
+			"hints": [
+				"Remember the lecture on Queues"
+			]
+		},
+		{
+			"question_text":"Queue is used in Breadth First Traversal of a graph",
+			"options":[
+				{
+					"option_text": "True",
+					"is_correct": true,
+					"option_feedback":"correct answer"
+				},
+				{
+					"option_text":"False",
+					"is_correct": false,
+					"option_feedback":"wrong answer"
+				}
+			],
+			"hints": [
+				"Remember the lecture on Queues"
+			]
+		},
+		{
+			"question_text":"To maintain FIFO, Are newer elements inserted to the tail of the list in Queues?",
+			"options":[
+				{
+					"option_text": "True",
+					"is_correct": true,
+					"option_feedback":"correct answer"
+				},
+				{
+					"option_text":"False",
+					"is_correct": false,
+					"option_feedback":"wrong answer"
+				}
+			],
+			"hints": [
+				"Remember the lecture on Queues"
+			]
+		},
+		{
+			"question_text":"Enqueue and Dequeue are the correct method used to insert and delete items from the queue repectively",
+			"options":[
+				{
+					"option_text": "True",
+					"is_correct": true,
+					"option_feedback":"correct answer"
+				},
+				{
+					"option_text":"False",
+					"is_correct": false,
+					"option_feedback":"wrong answer"
+				}
+			],
+			"hints": [
+				"Remember the lecture on Queues"
+			]
+		}
+	]
+}
