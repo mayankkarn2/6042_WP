@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="styles.css">
+	<title>Home Page</title>
+	<script src="helper.js"></script>
+</head>
+<body>
+	<div style="text-align: center">
+		<h1>Please Comment Here</h1>
+	</div>
+	<br>
+	<div style="text-align: center">
+		<form name="myform" onsubmit="return validateForm()">
+			Name:
+			<input type="text" name="Name"><br>
+			<br><br>
+			Comment:
+			<textarea rows="1" cols="20" name="comm"></textarea><br>
+			<br> <br>
+			Password:
+			<input type="password" name="pwd"><br>
+			<br><br>
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+	<br><br>
+	<div style="text-align: center">
+		<h2>Comments So Far!</h2>
+	</div>
+
+</body>
+</html>
